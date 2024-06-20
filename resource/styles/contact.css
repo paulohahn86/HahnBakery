@@ -1,0 +1,59 @@
+#contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
+  padding: 50px 0;
+  background-color: #ffffff;
+}
+
+.details-location {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  color: #ad7d0b;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.details-location h1 {
+  padding-bottom: 35px;
+}
+
+.details-location p {
+  padding-top: 5px;
+}
+
+.details-location i {
+  color: black;
+  padding: 15px 5px;
+}
+
+.ilocation {
+  width: 45%;
+}
+
+.ilocation iframe {
+  max-width: 650px;
+  padding-right: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+  .ilocation iframe {
+    width: 100%;
+    padding-right: 2%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  .details-location h1 {
+    font-size: 1.2rem;
+  }
+  .details-location p {
+    font-size: 1rem;
+  }
+
+  .details-location i {
+    padding: 5px 0;
+  }
+}

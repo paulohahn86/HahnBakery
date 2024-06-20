@@ -1,0 +1,40 @@
+#our-team {
+  background-color: #fbd479;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.team {
+  display: flex;
+  gap: 3%;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+#our-team p {
+  padding: 50px;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.team figure {
+  height: 250px;
+}
+
+.team img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.team h1 {
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 425px) {
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
