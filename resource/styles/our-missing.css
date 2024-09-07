@@ -6,7 +6,7 @@
 }
 
 .our-missing {
-  background-image: url("resource/images/banner-our-missing.jpg");
+  background-image: url("../images/banner-our-missing.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
