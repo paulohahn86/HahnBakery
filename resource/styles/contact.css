@@ -34,7 +34,7 @@
 }
 
 .ilocation iframe {
-  max-width: 650px;
+  max-width: 100%;
   padding-right: 5%;
 }
 
@@ -45,7 +45,7 @@
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 425px) {
+@media only screen and (min-width: 320px) and (max-width: 430px) {
   .details-location h1 {
     font-size: 1.2rem;
   }
@@ -55,5 +55,14 @@
 
   .details-location i {
     padding: 5px 0;
+  }
+
+  #contact {
+    flex-direction: column;
+  }
+
+  .ilocation {
+    margin: 20px 0px;
+    width: 60%;
   }
 }

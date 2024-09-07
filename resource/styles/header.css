@@ -16,6 +16,10 @@ header {
   justify-content: center;
 }
 
+.logo {
+  margin: 0px 20px;
+}
+
 .navegation ul {
   display: flex;
 }
